@@ -1,0 +1,126 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sweet Dreams</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a href="#"></a>
+    <header>
+      <nav>
+        <h1>Sweet Dreams</h1>
+        <ul>
+          <li><a href="#home">Início</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+      <img src="imagens/logo.png" width="100" height="100" />
+      <h2>Bem-vindo à nossa loja!</h2>
+      <p>Descubra os melhores doces artesanais feitos com amor e carinho.</p>
+    </section>
+
+    <section id="produtos">
+      <h2>Nossos Produtos</h2>
+      <div class="galeria-produtos">
+        <div class="card">
+          <img
+            src="imagens/torta de morango.jpg"
+            alt="Torta de morango"
+            width="300"
+            height="300"
+          />
+          <div class="card-content">
+            <h3>Torta de Morango</h3>
+            <p>R$ 14,00</p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="imagens/torta de creme.jpg"
+            alt="Empada de mousse"
+            width="300"
+            height="300"
+          />
+          <div class="card-content">
+            <h3>Empada de Mousse</h3>
+            <p>R$ 12,00</p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="imagens/brigadeiro.jpg"
+            alt="Brigadeiro Gourmet"
+            width="300"
+            height="300"
+          />
+          <div class="card-content">
+            <h3>Brigadeiro Gourmet</h3>
+            <p>R$ 3,00</p>
+          </div>
+        </div>
+      </div>
+      <div class="galeria-produtos">
+        <div class="card">
+          <img
+            src="imagens/torta de chocolate.jpg"
+            alt="Torta de Chocolate"
+            width="300"
+            height="300"
+          />
+          <div class="card-content">
+            <h3>Torta de Chocolate</h3>
+            <p>R$ 14,00</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="imagens/alfajor.jpg"
+            alt="Alfajor"
+            width="300"
+            height="300"
+          />
+          <div class="card-content">
+            <h3>Alfajor Artesanal</h3>
+            <p>R$ 6,00</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="imagens/pudim.jpg" alt="Pudim" width="300" height="300" />
+          <div class="card-content">
+            <h3>Pudim Tradicional</h3>
+            <p>R$ 5,00</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>Sweet Dreams Loja de Doces Artesanais.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="back-end/carrinho.py"></script>
+  </body>
+</html>

@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playwrite+AR:wght@100..400&display=swap");
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+header {
+  background-color: #c57f76;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  color: #fff;
+  font-family: "Playwrite AR", cursive;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Playwrite AR", cursive;
+}
+
+#home {
+  text-align: center;
+  padding: 30px 0;
+}
+h2 {
+  font-family: "Playwrite AR", cursive;
+}
+p {
+  font-family: "Playwrite AR", cursive;
+}
+#produtos {
+  padding: 10px 0;
+  text-align: center;
+  align-items: center;
+}
+
+.galeria-produtos {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.card {
+  background-color: #c57f76;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  max-width: 300px;
+  text-align: center;
+  margin: 20px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  margin: 10px 0;
+  font-size: 1.5em;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+
+.card-content p {
+  margin: 0;
+  color: #fff;
+  font-family: "Playwrite AR", cursive;
+  font-size: 1.2em;
+}
+
+#contato {
+  padding: 50px 0;
+  text-align: center;
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+  max-width: 400px;
+  width: 100%;
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #c57f76;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+form button:hover {
+  background-color: #c57f76;
+}
+
+footer {
+  background-color: #c57f76;
+  text-align: center;
+  padding: 1px;
+  color: #fff;
+  bottom: 0;
+  width: 100%;
+}
